@@ -23,5 +23,5 @@ A Verilog/SystemVerilog-based single-cycle RISC-V CPU core designed for function
 #### **Project Structure**
 - `src/` – contains SystemVerilog HDL code that describes the system's core logic at the RTL level
 - `tb/` – contains all the cocotb testbenches
-- `fpga` – contains files for FPGA implementation of the core
-- `packages` - will eventually contain config file
+- `fpga/` – contains files for FPGA implementation of the core
+- `packages/` - will eventually contain config file
