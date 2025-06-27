@@ -10,7 +10,7 @@ module memory #(
     output logic [31:0] read_data
 );
 
-reg [31:0] mem [0:WORDS-1] //32-bit
+reg [31:0] mem [0:WORDS-1]; //32-bit
 
 always @(posedge clk) begin
     //reset logic
@@ -21,13 +21,13 @@ always @(posedge clk) begin
     end
     else if (write_enable) begin
         if (address[1:0] == 2'b00) begin
-            mem[address[31:2]] <= write_data;
+            mem[address[7:2]] <= write_data;
         end
     end
 end
 
 always_comb begin
-    read_data = mem[address[31:2]];
+    read_data = mem[address[7:2]];
 end
 
 endmodule

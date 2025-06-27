@@ -1,0 +1,19 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Verilator simulation build artifacts
+sim_build/
+
+# Cocotb output
+results.xml
+*.vcd
+*.out
+*.log
+
+# VS Code project files (optional)
+.vscode/
+
+# Temporary files
+*.swp
+*.tmp
