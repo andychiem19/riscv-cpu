@@ -1,3 +1,6 @@
+> [!NOTE]
+> This project is under construction! It's my personal undertaking for Summer 2025.
+
 ### RISC-V architecture CPU
 A Verilog/SystemVerilog-based single-cycle RISC-V CPU core designed for functional simulation and FPGA realization. Implements a subset of the RV32I instruction set, executing one instruction per clock cycle.
 
